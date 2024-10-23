@@ -1,0 +1,10 @@
+body {
+  background-color: #6b8e23;
+}
+
+.main-container {
+  height: 80vh;
+  width: 80vw;
+  background-color: white;
+  border-radius: 2vw;
+}

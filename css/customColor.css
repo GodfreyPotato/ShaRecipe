@@ -1,0 +1,29 @@
+:root {
+  --bs-primary: #6b8e23;
+  --bs-secondary: #f87c09;
+}
+
+.btn-primary {
+  border: 2px solid var(--bs-primary);
+  background-color: var(--bs-primary) !important;
+}
+
+.btn-secondary {
+  border: 2px solid var(--bs-secondary);
+  background-color: var(--bs-secondary) !important;
+  transition: background-color 0.3 ease, color 0.3 ease;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: white !important;
+  border: 2px solid var(--bs-primary) !important;
+  color: var(--bs-primary) !important;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background-color: white !important;
+  border: 2px solid var(--bs-secondary) !important;
+  color: var(--bs-secondary) !important;
+}
